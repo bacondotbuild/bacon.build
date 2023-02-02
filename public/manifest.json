@@ -1,0 +1,8 @@
+{
+  "name": "bacon.build",
+  "short_name": "bacon.build",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "scope": "/"
+}
