@@ -19,7 +19,15 @@ const Home: NextPage = () => {
         <div className='flex flex-grow flex-col items-center justify-center space-y-3'>
           <Title>bacon.build</Title>
           <p>
-            hi my name is <span className='text-cb-orange'>bacon</span>
+            hi my name is{' '}
+            <a
+              className='text-cb-orange hover:underline'
+              href='https://origin.bacon.build'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              bacon
+            </a>
           </p>
           <p>
             and i <span className='text-cb-yellow'>build</span> things.
