@@ -30,7 +30,16 @@ const Home: NextPage = () => {
             </a>
           </p>
           <p>
-            and i <span className='text-cb-yellow'>build</span> things.
+            and i{' '}
+            <a
+              className='text-cb-yellow hover:underline'
+              href='https://apps.bacon.build'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              build
+            </a>{' '}
+            things.
           </p>
           <ul className='space-y-2'>
             {links
